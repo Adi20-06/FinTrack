@@ -5,7 +5,7 @@
   min-height: 100vh;
 }
 
-.page-header { display: flex; justify-content: space-between; margin-bottom: 24px; }
+.page-header { display: flex; justify-content: space-between ; margin-bottom: 24px; }
 .page-title { font-size: 24px; font-weight: 800; color: #fff; }
 .page-sub { color: #94a3b8; font-size: 13px; }
 

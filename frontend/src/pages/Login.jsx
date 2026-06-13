@@ -29,10 +29,18 @@ const Login = () => {
       navigate('/');  // Go to dashboard
 
     } catch (err) {
-      toast.error(err.response?.data?.message || 'Login failed.');
-    } finally {
-      setLoading(false);
-    }
+  // 429 = rate limit hit
+  if (err.response?.status === 429) {
+    toast.error('Too many login attempts. Please wait 15 minutes and try again.', {
+      duration: 6000,  // show for 6 seconds
+      icon: '🔒',
+    });
+  } else {
+    toast.error(err.response?.data?.message || 'Login failed.');
+  }
+} finally {
+  setLoading(false);
+}
   };
 
   return (
