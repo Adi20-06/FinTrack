@@ -232,16 +232,18 @@ FinTrack follows a simple flow:
 
 # 🛠️ Tech Stack
 
-> Update this section according to the technologies actually used in the project.
 
-| Layer             | Technology                 |
-| ----------------- | -------------------------- |
-| 🎨 Frontend       | `Your Frontend Technology` |
-| ⚙️ Backend        | `Your Backend Technology`  |
-| 🗄️ Database      | `Your Database`            |
-| 📊 Charts         | `Your Chart Library`       |
-| 🔐 Authentication | `Your Authentication`      |
-| 🚀 Deployment     | `Your Deployment Platform` |
+
+# 🛠️ Tech Stack
+
+| Layer | Technology |
+|---|---|
+| 🎨 Frontend | React.js |
+| ⚙️ Backend | Node.js + Express.js |
+| 🗄️ Database | MySql |
+| 📊 Charts | Chart.js |
+| 🔐 Authentication | JWT |
+
 
 ---
 
